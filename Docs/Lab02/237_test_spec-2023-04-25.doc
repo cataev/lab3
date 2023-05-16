@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testspec Prj237 - zcir3049_BBT</title>
+<link type="text/css" rel="stylesheet" href="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width= height= src="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Test Specification</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Prj237<br/>Test Suite: Prj237 - zcir3049_BBT</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 25/04/2023</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.zcir3049_BBT</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc18718">237-62: zcir3049_ECP_VALID</a></p><p style="padding-left: 45px;"><a href="#toc_tc18720">237-63: zcir3049_ECP_INVALID</a></p><p style="padding-left: 45px;"><a href="#toc_tc18722">237-64: zcir3049_BVA_VALID</a></p><p style="padding-left: 45px;"><a href="#toc_tc18724">237-65: zcir3049_BVA_INVALID</a></p></div><h1 class="doclevel" >Scope</h1>
+<div class="txtlevel"><p>Testing Project for group 237</p></div>
+ <br/><a name='toc_1'></a>
+<h1 class='doclevel'>1.Test Suite : zcir3049_BBT</h1>
+<div><p>Suita de teste aferenta laboratorului 2.</p>
+</div><a name="toc_tc18718"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case 237-62: zcir3049_ECP_VALID&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">zcir3049</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se va testa adaugarea unui produs nou folosind metoda ECP.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Preconditii:</p>
+
+<p>1) nume : string nevid</p>
+
+<p>2)pret: double pozitiv</p>
+
+<p>3)stoc:int pozitiv &gt;0</p>
+
+<p>4)min:int</p>
+
+<p>5)max:int , &gt;min</p>
+
+<p>6)lista de parti nevida</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >inventory.service.InventoryServiceECPTest</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >inventory.service.InventoryServiceECPTest.testAddProduct_ValidInput</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">zcir3049_F01:  AddProduct [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc18720"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case 237-63: zcir3049_ECP_INVALID&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">zcir3049</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se va testa adaugarea unui produs nou folosind metoda ECP.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Preconditii:</p>
+
+<p>1) nume : string nevid</p>
+
+<p>2)pret: double pozitiv</p>
+
+<p>3)stoc:int pozitiv &gt;0</p>
+
+<p>4)min:int</p>
+
+<p>5)max:int , &gt;min</p>
+
+<p>6)lista de parti nevida</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >inventory.service.InventoryServiceECPTest</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >inventory.service.InventoryServiceECPTest.testAddProduct_InvalidInput</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">zcir3049_F01:  AddProduct [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc18722"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case 237-64: zcir3049_BVA_VALID&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">zcir3049</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se va testa adaugarea unui produs nou folosind metoda BVA.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Preconditii:</p>
+
+<p>1) nume : string nevid</p>
+
+<p>2)pret: double pozitiv</p>
+
+<p>3)stoc:int pozitiv &gt;0</p>
+
+<p>4)min:int</p>
+
+<p>5)max:int , &gt;min</p>
+
+<p>6)lista de parti nevida</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">zcir3049_F01:  AddProduct [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc18724"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case 237-65: zcir3049_BVA_INVALID&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">zcir3049</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se va testa adaugarea unui produs nou folosind metoda BVA.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Preconditii:</p>
+
+<p>1) nume : string nevid</p>
+
+<p>2)pret: double pozitiv</p>
+
+<p>3)stoc:int pozitiv &gt;0</p>
+
+<p>4)min:int</p>
+
+<p>5)max:int , &gt;min</p>
+
+<p>6)lista de parti nevida</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">zcir3049_F01:  AddProduct [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+
+</body>
+</html>
